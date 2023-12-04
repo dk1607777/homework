@@ -46,6 +46,5 @@ public class Main {
         System.out.println(PersonWorks);
         var EachEmpLoyee = 8;
         System.out.println("если в компании работает" + PersonWorks + "человек,то всего" + (PersonWorks * EachEmpLoyee) + "часов работы может быть поделено между сотрудниками ");
-
     }
 }
