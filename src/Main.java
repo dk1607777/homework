@@ -1,8 +1,6 @@
 import javax.print.attribute.standard.Severity;
-
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
         var dog =8.0;
         System.out.println(dog);
         var cat =3.6;
@@ -11,7 +9,7 @@ public class Main {
         System.out.println(paper);
          dog = dog + 4;
         System.out.println(dog);
-        cat = cat = 3.6 + 4;
+        cat = 3.6 + 4;
         System.out.println(cat);
         paper = paper +4;
         System.out.println(paper);
