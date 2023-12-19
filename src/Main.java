@@ -12,8 +12,8 @@ public class Main {
             System.out.println("Установите версию приложения для Android по ссылке ");
         }
         System.out.println("задание 2 ");
-         int clientOS1 = 1;
-        int clientDeviceYear = 2015;
+         int clientOS1 = 0;
+        int clientDeviceYear = 2020;
         int limitYear = 2015;
         if (clientOS1 == 0 && clientDeviceYear > limitYear) {
             System.out.println(" Установите версию приложения для IOS  по сылке  ");
@@ -63,6 +63,7 @@ public class Main {
             case 9,10,11:
                 System.out.println("Месяц под номером " + monthNumber +  " принадлежит сезону осень ");
                 break;
+
         }
 
     }
